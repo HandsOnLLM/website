@@ -1,0 +1,37 @@
+site_name: Hands-On Large Language Models
+repo_url: https://github.com/handsOnLLM/Hands-On-Large-Language-Models
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - content.tabs.link
+    - navigation.tabs.sticky
+  palette:
+    - scheme: default
+      primary: custom 
+      accent: custom
+
+nav:
+  - About the Book: '#section-1'
+  - Testimonials: '#section-2'
+  - Table of Contents: '#section-3'
+  - Figures: '#figures'
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+
+plugins: []
