@@ -1,23 +1,23 @@
 document.addEventListener('DOMContentLoaded', function() {
   const testimonials = document.querySelectorAll('.testimonial-item');
   const bookImages = document.querySelectorAll('.book-image');
+  const authorImages = document.querySelectorAll('.author-image');
+  const tocImages = document.querySelectorAll('.toc-image'); // Assuming you have a class for TOC images
   
   function checkScroll() {
     const windowHeight = window.innerHeight;
     
-    testimonials.forEach(testimonial => {
-      const elementTop = testimonial.getBoundingClientRect().top;
-      if (elementTop < windowHeight * 0.7) {
-        testimonial.classList.add('fade-in');
+    function fadeInElement(element) {
+      const elementTop = element.getBoundingClientRect().top;
+      if (elementTop < windowHeight * 0.8) {
+        element.classList.add('fade-in');
       }
-    });
-
-    bookImages.forEach(image => {
-      const elementTop = image.getBoundingClientRect().top;
-      if (elementTop < windowHeight * 0.75) {
-        image.classList.add('fade-in');
-      }
-    });
+    }
+    
+    testimonials.forEach(fadeInElement);
+    bookImages.forEach(fadeInElement);
+    authorImages.forEach(fadeInElement);
+    tocImages.forEach(fadeInElement);
   }
   
   window.addEventListener('scroll', checkScroll);

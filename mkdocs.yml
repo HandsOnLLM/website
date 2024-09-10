@@ -4,6 +4,8 @@ repo_url: https://github.com/handsOnLLM/Hands-On-Large-Language-Models
 theme:
   name: material
   custom_dir: docs/overrides
+  logo: images/logo.svg
+  favicon: images/favicon.svg
   features:
     - navigation.tabs
     - navigation.top
@@ -20,7 +22,6 @@ nav:
   - About the Book: '#about'
   - Table of Contents: '#toc'
   - About the Authors: '#authors'
-  - Figures: '#figures'
 
 
 markdown_extensions:
@@ -34,8 +35,18 @@ extra_css:
 
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/handsOnLLM/Hands-On-Large-Language-Models
+    - icon: fontawesome/brands/amazon
+      link: https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961
+    - icon: fontawesome/solid/book
+      link: https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/
+
 
 plugins: []
 
 extra_javascript:
   - javascripts/scroll-animations.js
+
+copyright: Copyright &copy; 2024 Jay Alammar & Maarten Grootendorst

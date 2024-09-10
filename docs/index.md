@@ -8,7 +8,7 @@ hide:
 <div class="hero">
   <div class="hero-content">
     <h1><b>Hands-On Large Language Models</b></h1>
-    <p>Explore the world of Large Language Models with over <b>250 custom made figures</b> in this illustrated guide!</p>
+    <p>Explore the world of Large Language Models with over <b>275 custom made figures</b> in this illustrated guide!</p>
     <a href="https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961" class="cta-button"><font size="5">Read the Book!</font></a>
   </div>
   <img src="https://raw.githubusercontent.com/HandsOnLLM/Hands-On-Large-Language-Models/main/images/book_cover.png" alt="Book Cover" class="book-cover" style="max-width: 250px; height: auto;">
@@ -58,7 +58,7 @@ page, I learned something that is critical to success in this era of language mo
         <p class="title">Founder and CEO of Serrano Academy</p>
         <hr>
         <p class="quote">"If you’re looking to get up to speed in everything regarding LLMs, look no further! In
-this wonderful book, Jay and Martin will take you from zero to expert in the history
+this wonderful book, Jay and Maarten will take you from zero to expert in the history
 and latest advances in large language models. With very intuitive explanations, great
 real-life examples, clear illustrations, and comprehensive code labs, this book lifts the
 curtain on the complexities of transformer models, tokenizers, semantic search, RAG,
@@ -109,7 +109,7 @@ despite the fast-paced advancements in the field.
 <div class="section-wrapper bg-color-3">
   <div class="section-content">
     <h2 id="toc">Table of Contents</h2>
-    <center><img src="images/toc.svg" style="max-width: 100%;"></center>
+    <center><img src="images/toc.svg" alt="Table of Contents" class="toc-image"></center>
   </div>
 </div>
 
@@ -119,12 +119,11 @@ despite the fast-paced advancements in the field.
   <div class="section-content authors-section">
     <div class="authors-text">
       <h2 id="authors">About the Authors</h2>
-      <p>Jay Alammar is Director and Engineering Fellow at Cohere (pioneering provider of
-large language models as an API). Through his popular <a href="https://jalammar.github.io/" style="color: blue;">AI blog</a>, Jay has helped millions of researchers and engineers visually understand machine learning tools and concepts from the basic to the cutting-edge
+      <p><b>Jay Alammar</b> is Director and Engineering Fellow at Cohere. Through his popular <a href="https://jalammar.github.io/" style="color: blue;">AI blog</a>, Jay has helped millions of researchers and engineers visually understand machine learning tools and concepts from the basic to the cutting-edge
 (Transformers, BERT, GPT-3, Stable Diffusion). Jay is also a co-creator of popular
 machine learning and natural language processing courses on Deeplearning.ai and
 Udacity.</p>
-      <p>Maarten Grootendorst is a Senior Clinical Data Scientist at IKNL. He holds two master's degrees in psychology and one in data science, which he leverages to create visually understandable explanations of complex machine learning concepts in his <a href="https://newsletter.maartengrootendorst.com/" style="color: blue;">AI blog</a>. He is the author and maintainer of open source packages (BERTopic, PolyFuzz, KeyBERT) that have been downloaded millions of times and used by data professionals worldwide.</p>
+      <p><b>Maarten Grootendorst</b> is a Senior Clinical Data Scientist at IKNL. He holds two master's degrees in psychology and one in data science, which he leverages to create visual guides in his <a href="https://newsletter.maartengrootendorst.com/" style="color: blue;">AI blog</a>. He is the author and maintainer of open source packages (BERTopic, PolyFuzz, KeyBERT) that have been downloaded millions of times and used by data professionals worldwide.</p>
     </div>
     <div class="authors-images">
       <img src="images/jay.jfif" alt="Jay Alammar" class="author-image">
