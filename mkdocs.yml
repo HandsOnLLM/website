@@ -16,9 +16,10 @@ theme:
       accent: custom
 
 nav:
-  - About the Book: '#section-1'
-  - Testimonials: '#section-2'
-  - Table of Contents: '#section-3'
+  - Testimonials: '#testimonials'
+  - About the Book: '#about'
+  - Table of Contents: '#toc'
+  - About the Authors: '#authors'
   - Figures: '#figures'
 
 
@@ -35,3 +36,6 @@ extra:
   generator: false
 
 plugins: []
+
+extra_javascript:
+  - javascripts/scroll-animations.js

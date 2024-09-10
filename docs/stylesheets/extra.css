@@ -23,7 +23,7 @@ body {
 }
 
 .hero img.book-cover {
-  max-width: 500px !important;
+  max-width: 450px !important;
   height: auto !important;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -51,7 +51,7 @@ body {
   display: inline-block;
   background-color: #ffffff;
   color: #3f51b5;
-  padding: 10px 20px;
+  padding: 12px 24px;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -64,6 +64,8 @@ body {
   background-color: #ffffff;
   color: #ffffff;
 }
+
+
 
 blockquote {
   background-color: #f5f5f5;
@@ -94,15 +96,24 @@ figcaption {
 }
 
 .section-content {
-  max-width: 1400px;
+  max-width: 1350px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
+h2 {
+  font-size: 2rem; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+  margin-bottom: 1rem; /* Add some space below the header */
+}
+
 .section-content h2 {
-  padding-top: 0.5rem; /* Reduced padding above the title */
-  padding-bottom: 1.5rem; /* Increased padding below the title */
-  margin: 0; /* Remove default margins */
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+  margin: 0;
+  font-size: 2rem; /* Ensure consistency with the new h2 style */
+  font-weight: bold; /* Ensure consistency with the new h2 style */
 }
 
 .bg-color-1 { 
@@ -122,12 +133,20 @@ figcaption {
 
 .testimonial-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
 .testimonial-item {
   text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.testimonial-item.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .testimonial-image {
@@ -194,4 +213,48 @@ figcaption {
   --md-primary-fg-color: #082d64;
   --md-primary-fg-color--light: #757de8;
   --md-primary-fg-color--dark: #082d64;
+}
+
+.authors-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1000px; /* Adjust this value as needed */
+  margin: 0 auto; /* This centers the section horizontally */
+}
+
+.authors-text {
+  flex: 1;
+}
+
+.authors-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center; /* This centers the images horizontally within their container */
+}
+
+.author-image {
+  width: 70%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .authors-section {
+    flex-direction: column;
+  }
+  
+  .authors-images {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .author-image {
+    max-width: 200px;
+  }
 }
