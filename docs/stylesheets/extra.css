@@ -177,6 +177,7 @@ h2 {
   font-size: 0.9rem;
   font-style: italic;
   line-height: 1.4;
+  text-align: left;
 }
 
 @media (max-width: 1200px) {
@@ -316,4 +317,8 @@ h2 {
   max-width: 100%;
   height: auto;
   margin-bottom: 1rem;
+}
+
+.disabled-image {
+  display: none;
 }

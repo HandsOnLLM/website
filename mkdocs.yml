@@ -18,7 +18,7 @@ theme:
       accent: custom
 
 nav:
-  - Testimonials: '#testimonials'
+  - Reviews: '#reviews'
   - About the Book: '#about'
   - Table of Contents: '#toc'
   - About the Authors: '#authors'
