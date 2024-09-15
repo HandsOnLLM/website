@@ -18,10 +18,10 @@ hide:
 
 <div class="section-wrapper bg-color-1">
   <div class="section-content">
-    <b><center><h2 id="testimonials">Testimonials</h2></center></b>
+    <b><center><h2 id="reviews">Reviews</h2></center></b>
     <div class="testimonial-grid">
       <div class="testimonial-item">
-        <img src="images/andrew.jfif" alt="Reviewer 1" class="testimonial-image">
+        <img src="images/andrew.jfif" alt="Reviewer 1" class="testimonial-image disabled-image">
         <h3>Andrew Ng</h3>
         <p class="title">founder of DeepLearning.AI</p>
         <hr>
@@ -32,7 +32,7 @@ looking to understand the main techniques behind how Large Language Models are b
 "</p>
       </div>
       <div class="testimonial-item">
-        <img src="images/nils.jfif" alt="Reviewer 2" class="testimonial-image">
+        <img src="images/nils.jfif" alt="Reviewer 2" class="testimonial-image disabled-image">
         <h3>Nils Reimers</h3>
         <p class="title">Director of Machine Learning
 at Cohere | creator of sentence-transformers</p>
@@ -44,7 +44,7 @@ and refine LLMs. Highly recommended!
 "</p>
       </div>
       <div class="testimonial-item">
-        <img src="images/josh.jfif" alt="Reviewer 3" class="testimonial-image">
+        <img src="images/josh.jfif" alt="Reviewer 3" class="testimonial-image disabled-image">
         <h3>Josh Starmer</h3>
         <p class="title">StatQuest</p>
         <hr>
@@ -53,7 +53,7 @@ page, I learned something that is critical to success in this era of language mo
 "</p>
       </div>
       <div class="testimonial-item">
-        <img src="images/luis.jfif" alt="Reviewer 4" class="testimonial-image">
+        <img src="images/luis.jfif" alt="Reviewer 4" class="testimonial-image disabled-image">
         <h3>Luis Serrano, PhD</h3>
         <p class="title">Founder and CEO of Serrano Academy</p>
         <hr>
@@ -66,7 +66,7 @@ and many other cutting-edge technologies. A must read for anyone interested in t
 latest AI technology!"</p>
       </div>
       <div class="testimonial-item">
-        <img src="images/leland.jfif" alt="Reviewer 5" class="testimonial-image">
+        <img src="images/leland.jfif" alt="Reviewer 5" class="testimonial-image disabled-image">
         <h3>Leland McInnes</h3>
         <p class="title">Researcher at the Tutte Institute for
 Mathematics and Computing</p>
@@ -79,7 +79,7 @@ scope. By the final chapters, you will be fine-tuning and building your own larg
 models with confidence."</p>
       </div>
       <div class="testimonial-item">
-        <img src="images/roman.jfif" alt="Reviewer 6" class="testimonial-image">
+        <img src="images/roman.jfif" alt="Reviewer 6" class="testimonial-image disabled-image">
         <h3>Prof. DDr. Roman Egger</h3>
         <p class="title">CEO of Smartvisions.at
 and Modul University Vienna</p>
