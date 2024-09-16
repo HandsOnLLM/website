@@ -16,6 +16,9 @@ theme:
     - scheme: default
       primary: custom 
       accent: custom
+  name: mkdocs
+  analytics:
+    gtag: G-5K5WCGP9RR
 
 nav:
   - Reviews: '#reviews'
