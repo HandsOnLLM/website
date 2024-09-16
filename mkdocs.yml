@@ -42,6 +42,9 @@ extra:
       link: https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961
     - icon: fontawesome/solid/book
       link: https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/
+  analytics:
+    provider: google
+    property: G-5K5WCGP9RR
 
 
 plugins: []
